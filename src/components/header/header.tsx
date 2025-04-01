@@ -1,10 +1,11 @@
+import logo from './assets/logo.jpg';
 import './header.scss';
 export const Header: React.FC = () => {
     return (
         <header> 
             <div className="header-wrapper">
                 <div className="header-logo">
-                    <img src='src\assets\logo.jpg' alt="logo" />
+                    <img src={logo} alt="logo" />
                     <h1>MECHANICAL</h1>
                 </div>
                 
